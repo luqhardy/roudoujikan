@@ -5,11 +5,13 @@ body {
     align-items: center;
     height: 100vh;
     background-color: #000000;
+    color: #ffffff;
   }
   
   .container {
     text-align: center;
     width: 400px;
+    color: #ffffff;
   }
   
   #calendar {
@@ -17,16 +19,19 @@ body {
     grid-template-columns: repeat(7, 1fr);
     gap: 10px;
     margin-top: 20px;
+    color: #ffffff;
   }
   
   .day {
     padding: 10px;
     border: 1px solid #ccc;
     cursor: pointer;
+    color: #ffffff;
   }
   
   #shiftForm {
     margin-top: 20px;
+    color: #ffffff;
   }
   
   #warning {
